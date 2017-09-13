@@ -351,7 +351,7 @@ Add an expectation to the dog that, "allows the reading and writing of a hunger 
 ```ruby
 describe Dog do
   #...
-  describe "#name" do
+  describe "#hunger_level" do
     it "allows the reading and writing of a hunger level" do
       dog = Dog.new
       dog.hunger_level = 5
