@@ -31,9 +31,9 @@ describe Person do
 
       it "returns a greeting in Italian" do
         # legacy syntax - the old DSL
-        tony.greeting.should eql("Ciao, mi chiamo Tony.")
+        tony.greeting.should eql("Ciao, mio nome è Tony.")
         # equivalent to:
-        expect(tony.greeting).to eql("Ciao, mi chiamo Tony.")
+        expect(tony.greeting).to eql("Ciao, mio nome è Tony.")
       end
     end
   end
